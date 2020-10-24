@@ -1,1 +1,2 @@
 First commit
+Conflict commit
