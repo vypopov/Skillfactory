@@ -65,7 +65,7 @@ namespace Module13
                 UserData.Favcolors = empty;
             }
             Console.Clear();
-            return (UserData.Name, UserData.LastName, UserData.Age, UserData.HasPet,UserData.PetCnt,UserData.PetNames,UserData.HasFavCol,UserData.FavcolorCnt,UserData.Favcolors);
+            return UserData;
 
         }
         static string[] GetPetName(int num)
